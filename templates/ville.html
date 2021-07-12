@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ville.css') }}">
+    <title>
+        GreenTown | {{ville}}
+    </title>
+</head>
+
+<body>
+    <div class="Bandeau">
+        <h1>
+            {{ville}}
+        </h1>
+    </div>
+    <div class="Page">
+        <img src="{{ url_for('static', filename='Images/Fond_' +  ville_nom  + '.jpg') }}">
+    </div>
+</body>
+
+</html>

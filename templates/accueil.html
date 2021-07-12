@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/accueil.css') }}">
+    <title>
+        GreenTown | Accueil
+    </title>
+</head>
+
+<body>
+    <div class="Bandeau">
+        <h1>
+            GreenTown
+        </h1>
+    </div>
+    <div class="Page">
+        <img src="{{ url_for('static', filename='Images/Fond_accueil.jpg') }}">
+    </div>
+    <div class="Recherche">
+        <form method="get" action="/ville">
+            <select name="ville" id="ville">
+                <option value="Val_de_chaise">Val de chaise</option>
+                <option value="Ugine">Ugine</option>
+                <option value="St_Ferreol">St Férréol</option>
+                <option value="Faverges">Faverges</option>
+            </select>
+            <input type="submit" value="OK">
+        </form>
+    </div>
+</body>
+
+</html>

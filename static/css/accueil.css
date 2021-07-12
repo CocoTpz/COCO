@@ -1,0 +1,38 @@
+.Bandeau{
+    width : 100vw;
+    height : 8em;
+    background-color : rgba(0,0,0,0.5);
+    display : flex;
+    content-align : center;
+    position : absolute;
+}
+body{
+    margin : 0px;
+    overflow : hidden;
+}
+
+.Bandeau h1{
+    margin : 0px;
+    color : white;
+    text-align : center;
+    margin : auto;
+    font-size : 3em;
+}
+.Page > img{
+    width : 100vw;
+    height : 100vh;
+}
+.Recherche{
+    position : absolute;
+    top : 50%;
+    right : 50%;
+    transform : translate(50%,50%)
+}
+input{
+    font-size : 1em;
+    padding : 2em;
+}
+select{
+    font-size : 1em;
+    padding : 2em;
+}
